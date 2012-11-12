@@ -7,102 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ABE800D216514B52001673CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE800D116514B52001673CD /* UIKit.framework */; };
-		ABE800D416514B52001673CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE800D316514B52001673CD /* Foundation.framework */; };
-		ABE800D616514B52001673CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE800D516514B52001673CD /* CoreGraphics.framework */; };
-		ABE800DC16514B52001673CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABE800DA16514B52001673CD /* InfoPlist.strings */; };
-		ABE800DE16514B52001673CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE800DD16514B52001673CD /* main.m */; };
-		ABE800E216514B52001673CD /* TabbedAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE800E116514B52001673CD /* TabbedAppAppDelegate.m */; };
-		ABE800E416514B52001673CD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE800E316514B52001673CD /* Default.png */; };
-		ABE800E616514B52001673CD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE800E516514B52001673CD /* Default@2x.png */; };
-		ABE800E816514B52001673CD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE800E716514B52001673CD /* Default-568h@2x.png */; };
-		ABE800EB16514B52001673CD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE800E916514B52001673CD /* MainStoryboard.storyboard */; };
-		ABE800EE16514B52001673CD /* TabbedAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE800ED16514B52001673CD /* TabbedAppViewController.m */; };
+		ABE8010816514DAE001673CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE8010716514DAE001673CD /* UIKit.framework */; };
+		ABE8010A16514DAE001673CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE8010916514DAE001673CD /* Foundation.framework */; };
+		ABE8010C16514DAE001673CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE8010B16514DAE001673CD /* CoreGraphics.framework */; };
+		ABE8011216514DAE001673CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABE8011016514DAE001673CD /* InfoPlist.strings */; };
+		ABE8011416514DAE001673CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE8011316514DAE001673CD /* main.m */; };
+		ABE8011816514DAE001673CD /* TabbedAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE8011716514DAE001673CD /* TabbedAppAppDelegate.m */; };
+		ABE8011A16514DAE001673CD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE8011916514DAE001673CD /* Default.png */; };
+		ABE8011C16514DAE001673CD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE8011B16514DAE001673CD /* Default@2x.png */; };
+		ABE8011E16514DAE001673CD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE8011D16514DAE001673CD /* Default-568h@2x.png */; };
+		ABE8012116514DAE001673CD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE8011F16514DAE001673CD /* MainStoryboard.storyboard */; };
+		ABE8012416514DAE001673CD /* TabbedAppFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE8012316514DAE001673CD /* TabbedAppFirstViewController.m */; };
+		ABE8012616514DAE001673CD /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE8012516514DAE001673CD /* first.png */; };
+		ABE8012816514DAE001673CD /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE8012716514DAE001673CD /* first@2x.png */; };
+		ABE8012B16514DAE001673CD /* TabbedAppSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE8012A16514DAE001673CD /* TabbedAppSecondViewController.m */; };
+		ABE8012D16514DAE001673CD /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE8012C16514DAE001673CD /* second.png */; };
+		ABE8012F16514DAE001673CD /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE8012E16514DAE001673CD /* second@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ABE800CD16514B52001673CD /* TabbedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABE800D116514B52001673CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		ABE800D316514B52001673CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		ABE800D516514B52001673CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		ABE800D916514B52001673CD /* TabbedApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabbedApp-Info.plist"; sourceTree = "<group>"; };
-		ABE800DB16514B52001673CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		ABE800DD16514B52001673CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ABE800DF16514B52001673CD /* TabbedApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TabbedApp-Prefix.pch"; sourceTree = "<group>"; };
-		ABE800E016514B52001673CD /* TabbedAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbedAppAppDelegate.h; sourceTree = "<group>"; };
-		ABE800E116514B52001673CD /* TabbedAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbedAppAppDelegate.m; sourceTree = "<group>"; };
-		ABE800E316514B52001673CD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		ABE800E516514B52001673CD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		ABE800E716514B52001673CD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		ABE800EA16514B52001673CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		ABE800EC16514B52001673CD /* TabbedAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbedAppViewController.h; sourceTree = "<group>"; };
-		ABE800ED16514B52001673CD /* TabbedAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbedAppViewController.m; sourceTree = "<group>"; };
+		ABE8010316514DAE001673CD /* TabbedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE8010716514DAE001673CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABE8010916514DAE001673CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABE8010B16514DAE001673CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABE8010F16514DAE001673CD /* TabbedApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabbedApp-Info.plist"; sourceTree = "<group>"; };
+		ABE8011116514DAE001673CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABE8011316514DAE001673CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABE8011516514DAE001673CD /* TabbedApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TabbedApp-Prefix.pch"; sourceTree = "<group>"; };
+		ABE8011616514DAE001673CD /* TabbedAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbedAppAppDelegate.h; sourceTree = "<group>"; };
+		ABE8011716514DAE001673CD /* TabbedAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbedAppAppDelegate.m; sourceTree = "<group>"; };
+		ABE8011916514DAE001673CD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ABE8011B16514DAE001673CD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ABE8011D16514DAE001673CD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ABE8012016514DAE001673CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		ABE8012216514DAE001673CD /* TabbedAppFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbedAppFirstViewController.h; sourceTree = "<group>"; };
+		ABE8012316514DAE001673CD /* TabbedAppFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbedAppFirstViewController.m; sourceTree = "<group>"; };
+		ABE8012516514DAE001673CD /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		ABE8012716514DAE001673CD /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		ABE8012916514DAE001673CD /* TabbedAppSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbedAppSecondViewController.h; sourceTree = "<group>"; };
+		ABE8012A16514DAE001673CD /* TabbedAppSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbedAppSecondViewController.m; sourceTree = "<group>"; };
+		ABE8012C16514DAE001673CD /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		ABE8012E16514DAE001673CD /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ABE800CA16514B52001673CD /* Frameworks */ = {
+		ABE8010016514DAE001673CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABE800D216514B52001673CD /* UIKit.framework in Frameworks */,
-				ABE800D416514B52001673CD /* Foundation.framework in Frameworks */,
-				ABE800D616514B52001673CD /* CoreGraphics.framework in Frameworks */,
+				ABE8010816514DAE001673CD /* UIKit.framework in Frameworks */,
+				ABE8010A16514DAE001673CD /* Foundation.framework in Frameworks */,
+				ABE8010C16514DAE001673CD /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ABE800C216514B51001673CD = {
+		ABE800F816514DAE001673CD = {
 			isa = PBXGroup;
 			children = (
-				ABE800D716514B52001673CD /* TabbedApp */,
-				ABE800D016514B52001673CD /* Frameworks */,
-				ABE800CE16514B52001673CD /* Products */,
+				ABE8010D16514DAE001673CD /* TabbedApp */,
+				ABE8010616514DAE001673CD /* Frameworks */,
+				ABE8010416514DAE001673CD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ABE800CE16514B52001673CD /* Products */ = {
+		ABE8010416514DAE001673CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ABE800CD16514B52001673CD /* TabbedApp.app */,
+				ABE8010316514DAE001673CD /* TabbedApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ABE800D016514B52001673CD /* Frameworks */ = {
+		ABE8010616514DAE001673CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ABE800D116514B52001673CD /* UIKit.framework */,
-				ABE800D316514B52001673CD /* Foundation.framework */,
-				ABE800D516514B52001673CD /* CoreGraphics.framework */,
+				ABE8010716514DAE001673CD /* UIKit.framework */,
+				ABE8010916514DAE001673CD /* Foundation.framework */,
+				ABE8010B16514DAE001673CD /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		ABE800D716514B52001673CD /* TabbedApp */ = {
+		ABE8010D16514DAE001673CD /* TabbedApp */ = {
 			isa = PBXGroup;
 			children = (
-				ABE800E016514B52001673CD /* TabbedAppAppDelegate.h */,
-				ABE800E116514B52001673CD /* TabbedAppAppDelegate.m */,
-				ABE800E916514B52001673CD /* MainStoryboard.storyboard */,
-				ABE800EC16514B52001673CD /* TabbedAppViewController.h */,
-				ABE800ED16514B52001673CD /* TabbedAppViewController.m */,
-				ABE800D816514B52001673CD /* Supporting Files */,
+				ABE8011616514DAE001673CD /* TabbedAppAppDelegate.h */,
+				ABE8011716514DAE001673CD /* TabbedAppAppDelegate.m */,
+				ABE8011F16514DAE001673CD /* MainStoryboard.storyboard */,
+				ABE8012216514DAE001673CD /* TabbedAppFirstViewController.h */,
+				ABE8012316514DAE001673CD /* TabbedAppFirstViewController.m */,
+				ABE8012516514DAE001673CD /* first.png */,
+				ABE8012716514DAE001673CD /* first@2x.png */,
+				ABE8012916514DAE001673CD /* TabbedAppSecondViewController.h */,
+				ABE8012A16514DAE001673CD /* TabbedAppSecondViewController.m */,
+				ABE8012C16514DAE001673CD /* second.png */,
+				ABE8012E16514DAE001673CD /* second@2x.png */,
+				ABE8010E16514DAE001673CD /* Supporting Files */,
 			);
 			path = TabbedApp;
 			sourceTree = "<group>";
 		};
-		ABE800D816514B52001673CD /* Supporting Files */ = {
+		ABE8010E16514DAE001673CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				ABE800D916514B52001673CD /* TabbedApp-Info.plist */,
-				ABE800DA16514B52001673CD /* InfoPlist.strings */,
-				ABE800DD16514B52001673CD /* main.m */,
-				ABE800DF16514B52001673CD /* TabbedApp-Prefix.pch */,
-				ABE800E316514B52001673CD /* Default.png */,
-				ABE800E516514B52001673CD /* Default@2x.png */,
-				ABE800E716514B52001673CD /* Default-568h@2x.png */,
+				ABE8010F16514DAE001673CD /* TabbedApp-Info.plist */,
+				ABE8011016514DAE001673CD /* InfoPlist.strings */,
+				ABE8011316514DAE001673CD /* main.m */,
+				ABE8011516514DAE001673CD /* TabbedApp-Prefix.pch */,
+				ABE8011916514DAE001673CD /* Default.png */,
+				ABE8011B16514DAE001673CD /* Default@2x.png */,
+				ABE8011D16514DAE001673CD /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,13 +127,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ABE800CC16514B52001673CD /* TabbedApp */ = {
+		ABE8010216514DAE001673CD /* TabbedApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABE800F116514B52001673CD /* Build configuration list for PBXNativeTarget "TabbedApp" */;
+			buildConfigurationList = ABE8013216514DAE001673CD /* Build configuration list for PBXNativeTarget "TabbedApp" */;
 			buildPhases = (
-				ABE800C916514B52001673CD /* Sources */,
-				ABE800CA16514B52001673CD /* Frameworks */,
-				ABE800CB16514B52001673CD /* Resources */,
+				ABE800FF16514DAE001673CD /* Sources */,
+				ABE8010016514DAE001673CD /* Frameworks */,
+				ABE8010116514DAE001673CD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -124,77 +141,82 @@
 			);
 			name = TabbedApp;
 			productName = TabbedApp;
-			productReference = ABE800CD16514B52001673CD /* TabbedApp.app */;
+			productReference = ABE8010316514DAE001673CD /* TabbedApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ABE800C416514B51001673CD /* Project object */ = {
+		ABE800FA16514DAE001673CD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TabbedApp;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "ECE 495 Intro to iOS";
 			};
-			buildConfigurationList = ABE800C716514B51001673CD /* Build configuration list for PBXProject "TabbedApp" */;
+			buildConfigurationList = ABE800FD16514DAE001673CD /* Build configuration list for PBXProject "TabbedApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = ABE800C216514B51001673CD;
-			productRefGroup = ABE800CE16514B52001673CD /* Products */;
+			mainGroup = ABE800F816514DAE001673CD;
+			productRefGroup = ABE8010416514DAE001673CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ABE800CC16514B52001673CD /* TabbedApp */,
+				ABE8010216514DAE001673CD /* TabbedApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ABE800CB16514B52001673CD /* Resources */ = {
+		ABE8010116514DAE001673CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABE800DC16514B52001673CD /* InfoPlist.strings in Resources */,
-				ABE800E416514B52001673CD /* Default.png in Resources */,
-				ABE800E616514B52001673CD /* Default@2x.png in Resources */,
-				ABE800E816514B52001673CD /* Default-568h@2x.png in Resources */,
-				ABE800EB16514B52001673CD /* MainStoryboard.storyboard in Resources */,
+				ABE8011216514DAE001673CD /* InfoPlist.strings in Resources */,
+				ABE8011A16514DAE001673CD /* Default.png in Resources */,
+				ABE8011C16514DAE001673CD /* Default@2x.png in Resources */,
+				ABE8011E16514DAE001673CD /* Default-568h@2x.png in Resources */,
+				ABE8012116514DAE001673CD /* MainStoryboard.storyboard in Resources */,
+				ABE8012616514DAE001673CD /* first.png in Resources */,
+				ABE8012816514DAE001673CD /* first@2x.png in Resources */,
+				ABE8012D16514DAE001673CD /* second.png in Resources */,
+				ABE8012F16514DAE001673CD /* second@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ABE800C916514B52001673CD /* Sources */ = {
+		ABE800FF16514DAE001673CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABE800DE16514B52001673CD /* main.m in Sources */,
-				ABE800E216514B52001673CD /* TabbedAppAppDelegate.m in Sources */,
-				ABE800EE16514B52001673CD /* TabbedAppViewController.m in Sources */,
+				ABE8011416514DAE001673CD /* main.m in Sources */,
+				ABE8011816514DAE001673CD /* TabbedAppAppDelegate.m in Sources */,
+				ABE8012416514DAE001673CD /* TabbedAppFirstViewController.m in Sources */,
+				ABE8012B16514DAE001673CD /* TabbedAppSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ABE800DA16514B52001673CD /* InfoPlist.strings */ = {
+		ABE8011016514DAE001673CD /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ABE800DB16514B52001673CD /* en */,
+				ABE8011116514DAE001673CD /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		ABE800E916514B52001673CD /* MainStoryboard.storyboard */ = {
+		ABE8011F16514DAE001673CD /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ABE800EA16514B52001673CD /* en */,
+				ABE8012016514DAE001673CD /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -202,7 +224,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		ABE800EF16514B52001673CD /* Debug */ = {
+		ABE8013016514DAE001673CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +252,7 @@
 			};
 			name = Debug;
 		};
-		ABE800F016514B52001673CD /* Release */ = {
+		ABE8013116514DAE001673CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,7 +274,7 @@
 			};
 			name = Release;
 		};
-		ABE800F216514B52001673CD /* Debug */ = {
+		ABE8013316514DAE001673CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -263,7 +285,7 @@
 			};
 			name = Debug;
 		};
-		ABE800F316514B52001673CD /* Release */ = {
+		ABE8013416514DAE001673CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -277,24 +299,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ABE800C716514B51001673CD /* Build configuration list for PBXProject "TabbedApp" */ = {
+		ABE800FD16514DAE001673CD /* Build configuration list for PBXProject "TabbedApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABE800EF16514B52001673CD /* Debug */,
-				ABE800F016514B52001673CD /* Release */,
+				ABE8013016514DAE001673CD /* Debug */,
+				ABE8013116514DAE001673CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABE800F116514B52001673CD /* Build configuration list for PBXNativeTarget "TabbedApp" */ = {
+		ABE8013216514DAE001673CD /* Build configuration list for PBXNativeTarget "TabbedApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABE800F216514B52001673CD /* Debug */,
-				ABE800F316514B52001673CD /* Release */,
+				ABE8013316514DAE001673CD /* Debug */,
+				ABE8013416514DAE001673CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ABE800C416514B51001673CD /* Project object */;
+	rootObject = ABE800FA16514DAE001673CD /* Project object */;
 }

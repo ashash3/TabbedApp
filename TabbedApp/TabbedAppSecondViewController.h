@@ -1,5 +1,5 @@
 //
-//  TabbedAppViewController.h
+//  TabbedAppSecondViewController.h
 //  TabbedApp
 //
 //  Created by Ashley Chou on 11/12/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TabbedAppViewController : UIViewController
+@interface TabbedAppSecondViewController : UIViewController
 
 @end

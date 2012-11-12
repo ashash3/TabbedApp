@@ -1,18 +1,18 @@
 //
-//  TabbedAppViewController.m
+//  TabbedAppFirstViewController.m
 //  TabbedApp
 //
 //  Created by Ashley Chou on 11/12/12.
 //  Copyright (c) 2012 ECE 495 Intro to iOS. All rights reserved.
 //
 
-#import "TabbedAppViewController.h"
+#import "TabbedAppFirstViewController.h"
 
-@interface TabbedAppViewController ()
+@interface TabbedAppFirstViewController ()
 
 @end
 
-@implementation TabbedAppViewController
+@implementation TabbedAppFirstViewController
 
 - (void)viewDidLoad
 {
