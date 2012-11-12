@@ -98,7 +98,7 @@ const NSUInteger kNumImages		= 5;
 	
 	// load all the images from our bundle and add them to the scroll view
 	NSUInteger i;
-	for (i = 0; i < kNumImages; i++)
+	for (i = 1; i <= kNumImages; i++)
 	{
 		NSString *imageName = [NSString stringWithFormat:@"image%d.jpeg", i];
 		UIImage *image = [UIImage imageNamed:imageName];
