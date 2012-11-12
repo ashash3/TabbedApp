@@ -24,7 +24,7 @@
                             <constraint firstItem="Adp-oJ-i1B" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="h9J-Ur-G2a"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Duke Athletics" image="first" id="7"/>
+                    <tabBarItem key="tabBarItem" title="Duke Athletics" image="athletics.png" id="7"/>
                     <connections>
                         <outlet property="webView" destination="Adp-oJ-i1B" id="XWD-O3-6LN"/>
                     </connections>
@@ -51,7 +51,7 @@
                             <constraint firstItem="jGP-g9-38v" firstAttribute="trailing" secondItem="17" secondAttribute="trailing" type="default" id="gxb-Yd-gt4"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Duke Campus" image="first.png" id="6"/>
+                    <tabBarItem key="tabBarItem" title="Duke Campus" image="campus.png" id="6"/>
                     <connections>
                         <outlet property="scrollView1" destination="jGP-g9-38v" id="FPD-Cu-mfg"/>
                     </connections>
@@ -80,7 +80,7 @@
                             <constraint firstItem="mtI-1a-L8h" firstAttribute="leading" secondItem="2Ht-c6-hhD" secondAttribute="leading" type="default" id="rR2-1i-tUf"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Pratt Engineering" image="first" id="Avr-wy-i2I"/>
+                    <tabBarItem key="tabBarItem" title="Pratt Engineering" image="academics.png" id="Avr-wy-i2I"/>
                     <connections>
                         <outlet property="webView" destination="mtI-1a-L8h" id="O8E-oh-RjB"/>
                     </connections>
@@ -111,8 +111,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="16" height="16"/>
-        <image name="first.png" width="30" height="30"/>
+        <image name="academics.png" width="35" height="35"/>
+        <image name="athletics.png" width="35" height="35"/>
+        <image name="campus.png" width="35" height="35"/>
     </resources>
     <classes>
         <class className="DukeAcademicViewController" superclassName="UIViewController">
@@ -131,7 +132,6 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MyViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="scrollView1" candidateClass="UIScrollView"/>
-                <relationship kind="outlet" name="scrollView2" candidateClass="UIScrollView"/>
             </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">

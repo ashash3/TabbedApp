@@ -12,6 +12,9 @@
 		AB8018A81651651200B0A354 /* duke2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8018A31651651200B0A354 /* duke2.jpg */; };
 		AB8018A91651651200B0A354 /* duke3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8018A41651651200B0A354 /* duke3.jpg */; };
 		AB8018AA1651651200B0A354 /* duke4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8018A51651651200B0A354 /* duke4.jpg */; };
+		AB8018B61651697600B0A354 /* academics.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8018B31651697600B0A354 /* academics.png */; };
+		AB8018B71651697600B0A354 /* athletics.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8018B41651697600B0A354 /* athletics.png */; };
+		AB8018B81651697600B0A354 /* campus.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8018B51651697600B0A354 /* campus.png */; };
 		ABE8010816514DAE001673CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE8010716514DAE001673CD /* UIKit.framework */; };
 		ABE8010A16514DAE001673CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE8010916514DAE001673CD /* Foundation.framework */; };
 		ABE8010C16514DAE001673CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE8010B16514DAE001673CD /* CoreGraphics.framework */; };
@@ -39,6 +42,9 @@
 		AB8018A31651651200B0A354 /* duke2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duke2.jpg; sourceTree = "<group>"; };
 		AB8018A41651651200B0A354 /* duke3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duke3.jpg; sourceTree = "<group>"; };
 		AB8018A51651651200B0A354 /* duke4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duke4.jpg; sourceTree = "<group>"; };
+		AB8018B31651697600B0A354 /* academics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = academics.png; sourceTree = "<group>"; };
+		AB8018B41651697600B0A354 /* athletics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = athletics.png; sourceTree = "<group>"; };
+		AB8018B51651697600B0A354 /* campus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campus.png; sourceTree = "<group>"; };
 		ABE8010316514DAE001673CD /* TabbedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE8010716514DAE001673CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ABE8010916514DAE001673CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,6 +92,9 @@
 		AB8018A01651651200B0A354 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AB8018B31651697600B0A354 /* academics.png */,
+				AB8018B41651697600B0A354 /* athletics.png */,
+				AB8018B51651697600B0A354 /* campus.png */,
 				AB8018A11651651200B0A354 /* duke0.jpg */,
 				AB8018A21651651200B0A354 /* duke1.jpg */,
 				AB8018A31651651200B0A354 /* duke2.jpg */,
@@ -228,6 +237,9 @@
 				AB8018A81651651200B0A354 /* duke2.jpg in Resources */,
 				AB8018A91651651200B0A354 /* duke3.jpg in Resources */,
 				AB8018AA1651651200B0A354 /* duke4.jpg in Resources */,
+				AB8018B61651697600B0A354 /* academics.png in Resources */,
+				AB8018B71651697600B0A354 /* athletics.png in Resources */,
+				AB8018B81651697600B0A354 /* campus.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
