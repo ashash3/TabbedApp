@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class MyViewController;
+
 @interface TabbedAppAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, retain) MyViewController *myViewController;
 
 @end
