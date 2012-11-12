@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB8018A61651651200B0A354 /* duke0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8018A11651651200B0A354 /* duke0.jpg */; };
+		AB8018A71651651200B0A354 /* duke1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8018A21651651200B0A354 /* duke1.jpg */; };
+		AB8018A81651651200B0A354 /* duke2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8018A31651651200B0A354 /* duke2.jpg */; };
+		AB8018A91651651200B0A354 /* duke3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8018A41651651200B0A354 /* duke3.jpg */; };
+		AB8018AA1651651200B0A354 /* duke4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB8018A51651651200B0A354 /* duke4.jpg */; };
 		ABE8010816514DAE001673CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE8010716514DAE001673CD /* UIKit.framework */; };
 		ABE8010A16514DAE001673CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE8010916514DAE001673CD /* Foundation.framework */; };
 		ABE8010C16514DAE001673CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE8010B16514DAE001673CD /* CoreGraphics.framework */; };
@@ -29,6 +34,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB8018A11651651200B0A354 /* duke0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duke0.jpg; sourceTree = "<group>"; };
+		AB8018A21651651200B0A354 /* duke1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duke1.jpg; sourceTree = "<group>"; };
+		AB8018A31651651200B0A354 /* duke2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duke2.jpg; sourceTree = "<group>"; };
+		AB8018A41651651200B0A354 /* duke3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duke3.jpg; sourceTree = "<group>"; };
+		AB8018A51651651200B0A354 /* duke4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duke4.jpg; sourceTree = "<group>"; };
 		ABE8010316514DAE001673CD /* TabbedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE8010716514DAE001673CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ABE8010916514DAE001673CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -73,9 +83,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB8018A01651651200B0A354 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB8018A11651651200B0A354 /* duke0.jpg */,
+				AB8018A21651651200B0A354 /* duke1.jpg */,
+				AB8018A31651651200B0A354 /* duke2.jpg */,
+				AB8018A41651651200B0A354 /* duke3.jpg */,
+				AB8018A51651651200B0A354 /* duke4.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		ABE800F816514DAE001673CD = {
 			isa = PBXGroup;
 			children = (
+				AB8018A01651651200B0A354 /* Resources */,
 				ABE8010D16514DAE001673CD /* TabbedApp */,
 				ABE8010616514DAE001673CD /* Frameworks */,
 				ABE8010416514DAE001673CD /* Products */,
@@ -200,6 +223,11 @@
 				ABE8012816514DAE001673CD /* first@2x.png in Resources */,
 				ABE8012D16514DAE001673CD /* second.png in Resources */,
 				ABE8012F16514DAE001673CD /* second@2x.png in Resources */,
+				AB8018A61651651200B0A354 /* duke0.jpg in Resources */,
+				AB8018A71651651200B0A354 /* duke1.jpg in Resources */,
+				AB8018A81651651200B0A354 /* duke2.jpg in Resources */,
+				AB8018A91651651200B0A354 /* duke3.jpg in Resources */,
+				AB8018AA1651651200B0A354 /* duke4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

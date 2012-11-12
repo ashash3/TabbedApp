@@ -72,11 +72,14 @@ const NSUInteger kNumImages		= 5;
 			view.frame = frame;
 			
 			curXLoc += (kScrollObjWidth);
+
 		}
 	}
 	
 	// set the content size so it can be scrollable
 	[scrollView1 setContentSize:CGSizeMake((kNumImages * kScrollObjWidth), [scrollView1 bounds].size.height)];
+
+
 }
 
 - (void)viewDidLoad
@@ -97,10 +100,9 @@ const NSUInteger kNumImages		= 5;
 	scrollView1.pagingEnabled = YES;
 	
 	// load all the images from our bundle and add them to the scroll view
-	NSUInteger i;
-	for (i = 1; i <= kNumImages; i++)
+	for (int i = 0; i < kNumImages; i++)
 	{
-		NSString *imageName = [NSString stringWithFormat:@"image%d.jpeg", i];
+		NSString *imageName = [NSString stringWithFormat:@"duke%d.jpg", i];
 		UIImage *image = [UIImage imageNamed:imageName];
 		UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
 		
@@ -109,20 +111,12 @@ const NSUInteger kNumImages		= 5;
 		rect.size.height = kScrollObjHeight;
 		rect.size.width = kScrollObjWidth;
 		imageView.frame = rect;
-		imageView.tag = i;	// tag our images for later use when we place them in serial fashion
+		imageView.tag = i + 1;	// tag our images for later use when we place them in serial fashion
 		[scrollView1 addSubview:imageView];
 	}
 	
 	[self layoutScrollImages];	// now place the photos in serial layout within the scrollview
 }
-
-//- (void)dealloc
-//{	
-//	[scrollView1 release];
-//	[scrollView2 release];
-//	
-//	[super dealloc];
-//}
 
 - (void)didReceiveMemoryWarning
 {
