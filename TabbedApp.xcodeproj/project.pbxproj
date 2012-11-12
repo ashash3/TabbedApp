@@ -23,6 +23,14 @@
 		ABE8012B16514DAE001673CD /* TabbedAppSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE8012A16514DAE001673CD /* TabbedAppSecondViewController.m */; };
 		ABE8012D16514DAE001673CD /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE8012C16514DAE001673CD /* second.png */; };
 		ABE8012F16514DAE001673CD /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE8012E16514DAE001673CD /* second@2x.png */; };
+		ABE8014416515011001673CD /* DukeWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE8014316515011001673CD /* DukeWebViewController.m */; };
+		ABE8014716515030001673CD /* ImageFlipperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE8014616515030001673CD /* ImageFlipperViewController.m */; };
+		ABE8014F165150BC001673CD /* duke-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ABE8014A165150BC001673CD /* duke-1.jpeg */; };
+		ABE80150165150BC001673CD /* duke-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ABE8014B165150BC001673CD /* duke-2.jpeg */; };
+		ABE80151165150BC001673CD /* duke-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ABE8014C165150BC001673CD /* duke-3.jpeg */; };
+		ABE80152165150BC001673CD /* duke-4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ABE8014D165150BC001673CD /* duke-4.jpeg */; };
+		ABE80153165150BC001673CD /* duke-5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ABE8014E165150BC001673CD /* duke-5.jpeg */; };
+		ABE80156165154E8001673CD /* DukeAcademicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE80155165154E7001673CD /* DukeAcademicViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +56,17 @@
 		ABE8012A16514DAE001673CD /* TabbedAppSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbedAppSecondViewController.m; sourceTree = "<group>"; };
 		ABE8012C16514DAE001673CD /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		ABE8012E16514DAE001673CD /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		ABE8014216515011001673CD /* DukeWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DukeWebViewController.h; sourceTree = "<group>"; };
+		ABE8014316515011001673CD /* DukeWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DukeWebViewController.m; sourceTree = "<group>"; };
+		ABE8014516515030001673CD /* ImageFlipperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFlipperViewController.h; sourceTree = "<group>"; };
+		ABE8014616515030001673CD /* ImageFlipperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFlipperViewController.m; sourceTree = "<group>"; };
+		ABE8014A165150BC001673CD /* duke-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "duke-1.jpeg"; sourceTree = "<group>"; };
+		ABE8014B165150BC001673CD /* duke-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "duke-2.jpeg"; sourceTree = "<group>"; };
+		ABE8014C165150BC001673CD /* duke-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "duke-3.jpeg"; sourceTree = "<group>"; };
+		ABE8014D165150BC001673CD /* duke-4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "duke-4.jpeg"; sourceTree = "<group>"; };
+		ABE8014E165150BC001673CD /* duke-5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "duke-5.jpeg"; sourceTree = "<group>"; };
+		ABE80154165154E7001673CD /* DukeAcademicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DukeAcademicViewController.h; sourceTree = "<group>"; };
+		ABE80155165154E7001673CD /* DukeAcademicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DukeAcademicViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +86,7 @@
 		ABE800F816514DAE001673CD = {
 			isa = PBXGroup;
 			children = (
+				ABE80149165150AF001673CD /* Resources */,
 				ABE8010D16514DAE001673CD /* TabbedApp */,
 				ABE8010616514DAE001673CD /* Frameworks */,
 				ABE8010416514DAE001673CD /* Products */,
@@ -94,11 +114,17 @@
 		ABE8010D16514DAE001673CD /* TabbedApp */ = {
 			isa = PBXGroup;
 			children = (
+				ABE80154165154E7001673CD /* DukeAcademicViewController.h */,
+				ABE80155165154E7001673CD /* DukeAcademicViewController.m */,
 				ABE8011616514DAE001673CD /* TabbedAppAppDelegate.h */,
 				ABE8011716514DAE001673CD /* TabbedAppAppDelegate.m */,
+				ABE8014516515030001673CD /* ImageFlipperViewController.h */,
+				ABE8014616515030001673CD /* ImageFlipperViewController.m */,
 				ABE8011F16514DAE001673CD /* MainStoryboard.storyboard */,
 				ABE8012216514DAE001673CD /* TabbedAppFirstViewController.h */,
 				ABE8012316514DAE001673CD /* TabbedAppFirstViewController.m */,
+				ABE8014216515011001673CD /* DukeWebViewController.h */,
+				ABE8014316515011001673CD /* DukeWebViewController.m */,
 				ABE8012516514DAE001673CD /* first.png */,
 				ABE8012716514DAE001673CD /* first@2x.png */,
 				ABE8012916514DAE001673CD /* TabbedAppSecondViewController.h */,
@@ -122,6 +148,18 @@
 				ABE8011D16514DAE001673CD /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABE80149165150AF001673CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABE8014A165150BC001673CD /* duke-1.jpeg */,
+				ABE8014B165150BC001673CD /* duke-2.jpeg */,
+				ABE8014C165150BC001673CD /* duke-3.jpeg */,
+				ABE8014D165150BC001673CD /* duke-4.jpeg */,
+				ABE8014E165150BC001673CD /* duke-5.jpeg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +223,11 @@
 				ABE8012816514DAE001673CD /* first@2x.png in Resources */,
 				ABE8012D16514DAE001673CD /* second.png in Resources */,
 				ABE8012F16514DAE001673CD /* second@2x.png in Resources */,
+				ABE8014F165150BC001673CD /* duke-1.jpeg in Resources */,
+				ABE80150165150BC001673CD /* duke-2.jpeg in Resources */,
+				ABE80151165150BC001673CD /* duke-3.jpeg in Resources */,
+				ABE80152165150BC001673CD /* duke-4.jpeg in Resources */,
+				ABE80153165150BC001673CD /* duke-5.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +242,9 @@
 				ABE8011816514DAE001673CD /* TabbedAppAppDelegate.m in Sources */,
 				ABE8012416514DAE001673CD /* TabbedAppFirstViewController.m in Sources */,
 				ABE8012B16514DAE001673CD /* TabbedAppSecondViewController.m in Sources */,
+				ABE8014416515011001673CD /* DukeWebViewController.m in Sources */,
+				ABE8014716515030001673CD /* ImageFlipperViewController.m in Sources */,
+				ABE80156165154E8001673CD /* DukeAcademicViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +292,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -267,7 +313,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -315,6 +361,7 @@
 				ABE8013416514DAE001673CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
